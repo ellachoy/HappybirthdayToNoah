@@ -174,7 +174,7 @@ document.ontouchstart = (evt) => birthday.onClick(evt);
 document.addEventListener('DOMContentLoaded',()=>{
     new TypeIt('#title')
        .pause(100)
-       .delete(0, { delay: 1000 })
+    //    .delete(0, { delay: 1000 })
        .type(' 🎂')
        .go();
   });
